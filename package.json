@@ -1,9 +1,12 @@
 {
+ " homepage" : "http://Riritaaaa.github.io/Portfolio_Rita",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -23,6 +26,7 @@
     "antd": "^5.17.0",
     "custom-curses": "^0.1.18",
     "framer-motion": "^11.2.0",
+    "gh-pages": "^6.1.1",
     "ionicons": "^7.4.0",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
