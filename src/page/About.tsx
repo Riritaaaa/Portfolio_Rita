@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import "@component/style.css";
 import person from "@assets/person.png";
 import { motion, useAnimation } from "framer-motion";

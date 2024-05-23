@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import cat from "@assets/40_20240520220812.png";
 
 const Test = () => {

@@ -1,7 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import Nav from "@component/Nav";
-import Home from "@page/Home";
-import Port from "@page/Port";
 
 const route = createBrowserRouter([
   {
@@ -18,6 +16,6 @@ const route = createBrowserRouter([
       },
     ], */
   },
-]);
+],{basename:"/portfolio"});
 
 export default route;

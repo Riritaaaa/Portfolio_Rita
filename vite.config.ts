@@ -4,7 +4,8 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [tsconfigPaths()],
-  resolve: {
+  base:"/portfolio",
+  /* resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
   server: {
@@ -18,5 +19,5 @@ export default defineConfig({
       }
     }
 
-  }
+  } */
 })
