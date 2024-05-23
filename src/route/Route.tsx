@@ -16,6 +16,6 @@ const route = createHashRouter([
       },
     ], */
   },
-],{basename:"/portfolio"});
+]);/*,{basename:"/portfolio"}*/
 
 export default route;
