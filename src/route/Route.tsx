@@ -1,7 +1,6 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Nav from "@component/Nav";
-
-const route = createHashRouter([
+const route = createBrowserRouter([
   {
     path: "/",
     element: <Nav />,

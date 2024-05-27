@@ -4,8 +4,11 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [tsconfigPaths()],
+  build:{
+    outDir:"./docs",
+  },
   // base:"/portfolio",
-  base:"/Portfolio_Rita/",
+  // base:"/Portfolio_Rita/",
   /* resolve: {
     extensions: ['.ts', '.tsx', '.js']
   },
